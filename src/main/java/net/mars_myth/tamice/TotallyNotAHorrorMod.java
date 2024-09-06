@@ -3,6 +3,7 @@ package net.mars_myth.tamice;
 import net.fabricmc.api.ModInitializer;
 
 import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
+import net.mars_myth.tamice.block.ModBlocks;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
@@ -19,6 +20,8 @@ public class TotallyNotAHorrorMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("This is not a horror mod");
 
+
+		ModBlocks.registerModBlocks();
 
 	}
 }
