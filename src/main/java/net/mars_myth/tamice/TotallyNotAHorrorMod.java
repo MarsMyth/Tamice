@@ -17,7 +17,7 @@ public class TotallyNotAHorrorMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("This is not a horror game");
+		LOGGER.info("This is not a horror mod");
 
 
 	}
